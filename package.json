@@ -1,0 +1,19 @@
+{
+  "name": "cordova-windows-barcode",
+  "version": "0.0.1",
+  "description": "Cordova Windows barcode",
+  "cordova": {
+    "id": "cordova-windows-barcode",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "barcode",
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "Dynamsoft",
+  "license": "MIT"
+}
