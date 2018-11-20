@@ -1,0 +1,1 @@
+# cordova-windows-barcode
