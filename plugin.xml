@@ -13,9 +13,8 @@
         <resource-file src="src/windows/libs/x86/DynamsoftBarcodeReaderx86.dll" target="DynamsoftBarcodeReaderx86.dll" arch="x86" reference="true" />
         <resource-file src="src/windows/libs/x86/DynamicPdf.dll" target="DynamicPdf.dll" arch="x86" reference="true" />
         <resource-file src="src/windows/libs/x86/vcomp110.dll" target="vcomp110.dll" arch="x86" reference="true" />
-        
+
         <framework src="src/windows/libs/x86/BarcodeComponent.winmd" target-dir="x86" arch="x86" custom="true"/>
-        <framework src="src/windows/libs/x86/Dynamsoft.winmd" target-dir="x86" arch="x86" custom="true"/>
-        <hook src="hooks/windows/copy-dlls.js" type="after_plugin_add"/>
+        <framework src="src/windows/libs/x86/Dynamsoft.winmd" target-dir="x86" arch="x86" custom="true" implementation="src/windows/libs/x86/Dynamsoft.dll"/>
     </platform>
 </plugin>
