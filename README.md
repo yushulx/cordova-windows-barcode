@@ -42,3 +42,6 @@ The sample shows how to build a Windows Universal App using Cordova, C++/WinRT a
     ```
 
     ![cordova windows barcode](https://www.codepool.biz/wp-content/uploads/2018/11/cordova-windows-barcode.PNG)
+    
+## Blog
+[Building Cordova Plugin with Windows Runtime Component](https://www.codepool.biz/cordova-plugin-barcode-winrt.html)
